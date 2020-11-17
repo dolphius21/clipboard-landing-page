@@ -60,10 +60,17 @@ body {
   box-shadow: inset 0 -3px #2f9681, 0 10px 10px -10px #2f9681;
   width: 90%;
   margin: 0 0.25rem 1rem;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 
   @include media-lg {
     width: 220px;
   }
+}
+
+.green-btn:hover {
+  box-shadow: inset 0 -3px #53b7a7, 0 13px 15px -10px #2f9681;
+  background-color: #5dccbb;
 }
 
 .purple-btn {
@@ -76,10 +83,17 @@ body {
   margin-bottom: 1rem;
   width: 90%;
   margin: 0 0.25rem 1rem;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 
   @include media-lg {
     width: 220px;
   }
+}
+
+.purple-btn:hover {
+  box-shadow: inset 0 -3px #7f88dc, 0 13px 15px -10px #5061da;
+  background-color: #8897fd;
 }
 
 p {
@@ -316,6 +330,11 @@ footer {
         a {
           color: $dark-neutral;
           text-decoration: none;
+          transition: all 0.3s ease-out;
+        }
+
+        a:hover {
+          color: $primary-green;
         }
       }
     }
@@ -325,6 +344,14 @@ footer {
       width: 200px;
       justify-content: space-evenly;
       padding-bottom: 2rem;
+
+      .social-icon {
+        transition: all 0.3s ease-out;
+      }
+
+      .social-icon:hover {
+        transform: translateY(-7px);
+      }
     }
   }
 

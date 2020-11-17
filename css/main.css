@@ -45,12 +45,21 @@ body {
           box-shadow: inset 0 -3px #2f9681, 0 10px 10px -10px #2f9681;
   width: 90%;
   margin: 0 0.25rem 1rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
   .green-btn {
     width: 220px;
   }
+}
+
+.green-btn:hover {
+  -webkit-box-shadow: inset 0 -3px #53b7a7, 0 13px 15px -10px #2f9681;
+          box-shadow: inset 0 -3px #53b7a7, 0 13px 15px -10px #2f9681;
+  background-color: #5dccbb;
 }
 
 .purple-btn {
@@ -64,12 +73,21 @@ body {
   margin-bottom: 1rem;
   width: 90%;
   margin: 0 0.25rem 1rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
   .purple-btn {
     width: 220px;
   }
+}
+
+.purple-btn:hover {
+  -webkit-box-shadow: inset 0 -3px #7f88dc, 0 13px 15px -10px #5061da;
+          box-shadow: inset 0 -3px #7f88dc, 0 13px 15px -10px #5061da;
+  background-color: #8897fd;
 }
 
 p {
@@ -370,6 +388,12 @@ footer .flex .links .link {
 footer .flex .links .link a {
   color: #4c545d;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+footer .flex .links .link a:hover {
+  color: #26baa4;
 }
 
 footer .flex .social-icons {
@@ -381,6 +405,16 @@ footer .flex .social-icons {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-bottom: 2rem;
+}
+
+footer .flex .social-icons .social-icon {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+footer .flex .social-icons .social-icon:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
 }
 
 footer .attribution {
