@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Clipboard landing page</title>
   </head>
@@ -13,7 +18,7 @@
         <div class="logo-container">
           <img src="./images/logo.svg" alt="Clipboard logo" class="logo" />
         </div>
-        <h1 class="heading">A history of everything you copy</h1>
+        <h1 class="heading-1">A history of everything you copy</h1>
         <p>
           Clipboard allows you to track and organize everything you copy.Instantly access your
           clipboard on all your devices.
@@ -22,7 +27,7 @@
         <button class="purple-btn">Download for Mac</button>
       </div>
     </header>
-    <section class="features">
+    <main class="features">
       <div class="width-wrapper">
         <div class="intro">
           <h2 class="heading-2">Keep track of your snippets</h2>
@@ -48,35 +53,42 @@
           <p>Retrieve any snippets from the first moment you started using the app.</p>
         </div>
       </div>
-    </section>
+    </main>
     <section class="availability">
-      <h2 class="heading-2">Access Clipboard Anywhere</h2>
-      <p>
-        Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in
-        a few simple clicks.
-      </p>
+      <div class="width-wrapper">
+        <h2 class="heading-2">Access Clipboard Anywhere</h2>
+        <p>
+          Whether you’re on the go, or at your computer, you can access all your Clipboard snippets
+          in a few simple clicks.
+        </p>
+        <div class="img-container">
+          <img src="./images/image-devices.png" alt="desktop computer" class="desktop-img" />
+        </div>
+      </div>
     </section>
     <section class="workflow">
-      <h2 class="heading-2">Supercharge Your Workflow</h2>
-      <p>We’ve got the tools to boost your productivity.</p>
-      <div class="flex">
-        <div class="flex-col">
-          <img src="./images/icon-blacklist.svg" alt="list icon" class="workflow-icon" />
-          <h3 class="heading-3">Create blacklists</h3>
-          <p>
-            Ensure sensitive information never makes its way to your clipboard by excluding certain
-            sources.
-          </p>
-        </div>
-        <div class="flex-col">
-          <img src="./images/icon-text.svg" alt="text icon" class="workflow-icon" />
-          <h3 class="heading-3">Plain text snippets</h3>
-          <p>Remove unwanted formatting from copied text for a consistent look.</p>
-        </div>
-        <div class="flex-col">
-          <img src="./images/icon-preview.svg" alt="preview icon" class="workflow-icon" />
-          <h3 class="heading-3">Sneak preview</h3>
-          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      <div class="width-wrapper">
+        <h2 class="heading-2">Supercharge Your Workflow</h2>
+        <p>We’ve got the tools to boost your productivity.</p>
+        <div class="flex">
+          <div class="flex-col">
+            <img src="./images/icon-blacklist.svg" alt="list icon" class="workflow-icon" />
+            <h3 class="heading-3">Create blacklists</h3>
+            <p>
+              Ensure sensitive information never makes its way to your clipboard by excluding
+              certain sources.
+            </p>
+          </div>
+          <div class="flex-col">
+            <img src="./images/icon-text.svg" alt="text icon" class="workflow-icon" />
+            <h3 class="heading-3">Plain text snippets</h3>
+            <p>Remove unwanted formatting from copied text for a consistent look.</p>
+          </div>
+          <div class="flex-col">
+            <img src="./images/icon-preview.svg" alt="preview icon" class="workflow-icon" />
+            <h3 class="heading-3">Sneak preview</h3>
+            <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -131,11 +143,13 @@
             /></a>
           </div>
         </div>
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="https://github.com/dolphius21">John Rudolph Lee</a>.
-        </p>
+        <div class="attribution">
+          <p>
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+            >. Coded by <a href="https://github.com/dolphius21">John Rudolph Lee</a>.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
